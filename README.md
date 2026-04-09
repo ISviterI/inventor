@@ -13,16 +13,15 @@ pip install inventor
 ## Quick Start
 
 ```python
-import chronolight
-
-# Timeline
-tl = chronolight.Timeline()
-tl.wait(1)
-tl.call(lambda: print("1 second passed"))
-tl.wait(0.5)
-tl.call(lambda: print("Another 0.5 seconds passed"))
-tl.run()
-
-# Delayed call
-chronolight.delay(2, lambda: print("After 2 seconds"))
+import inventor
+inv = inventor.Inventory()
+sword = inventor.Item("sword", lambda item: print("Attacked!"), description="Use it to attack")
+inv.add_item(sword)
+while True:
+    action = input("What to do?: ")
+    if action == "inventory":
+        inv.print_slot(message="Here's ur inventory:")
+    for i in inv.slots.get("items"):
+        if action == i.name:
+            i.use()
 ```

@@ -2,17 +2,17 @@ from setuptools import setup, find_packages
 
 setup(
     name="inventor",
-    version="1.0.0",
+    version="1.0.1",
     author="Sviter",
     description="A simple library for easily working with time",
     url="https://github.com/ISviterI/chronolight",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     project_urls={
-        "Homepage": "https://github.com/ISviterI/chronolight",
+        "Homepage": "https://github.com/ISviterI/inventor",
         "Discord": "https://discord.gg/MXv3KTFmPE",
-        "Wiki": "https://github.com/ISviterI/chronolight/wiki",
-        "Documentation": "https://github.com/ISviterI/chronolight/wiki/Documentation",
+        "Wiki": "https://github.com/ISviterI/inventor/wiki",
+        "Documentation": "https://github.com/ISviterI/inventor/wiki/Documentation",
     },
     packages=find_packages(),
     license="MIT",

@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: inventor
+Version: 1.0.0
+Summary: A simple library for easily working with time
+Home-page: https://github.com/ISviterI/chronolight
+Author: Sviter
+License: MIT
+Project-URL: Homepage, https://github.com/ISviterI/chronolight
+Project-URL: Discord, https://discord.gg/MXv3KTFmPE
+Project-URL: Wiki, https://github.com/ISviterI/chronolight/wiki
+Project-URL: Documentation, https://github.com/ISviterI/chronolight/wiki/Documentation
+Keywords: inventor,inventory,pocket,easy,simple,peak,bruh,game,games,forgames
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# inventor
+
+[![Discord](https://img.shields.io/discord/1488880281376260186?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/MXv3KTFmPE)
+
+A simple library for creating inventory for games.
+
+## Installation
+
+```bash
+pip install inventor
+```
+
+## Quick Start
+
+```python
+import chronolight
+
+# Timeline
+tl = chronolight.Timeline()
+tl.wait(1)
+tl.call(lambda: print("1 second passed"))
+tl.wait(0.5)
+tl.call(lambda: print("Another 0.5 seconds passed"))
+tl.run()
+
+# Delayed call
+chronolight.delay(2, lambda: print("After 2 seconds"))
+```

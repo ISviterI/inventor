@@ -1,0 +1,8 @@
+README.md
+setup.py
+inventor/__init__.py
+inventor/core.py
+inventor.egg-info/PKG-INFO
+inventor.egg-info/SOURCES.txt
+inventor.egg-info/dependency_links.txt
+inventor.egg-info/top_level.txt

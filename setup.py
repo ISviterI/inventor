@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="chronolight",
-    version="1.6.1",
+    name="inventor",
+    version="1.0.0",
     author="Sviter",
     description="A simple library for easily working with time",
     url="https://github.com/ISviterI/chronolight",
@@ -21,5 +21,5 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
-    keywords="chronolight,chrono,timelines,delay,time,timeline,after,after_delay,afterdelay,light,chronos,simple,easy,easytoworkwith,easy_to_work_with,very_simple,cool,peak,bruh,lol,chains,chain,class,working_with_time",
+    keywords="inventor,inventory,pocket,easy,simple,peak,bruh,game,games,forgames",
 )

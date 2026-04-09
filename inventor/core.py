@@ -14,6 +14,7 @@ class Inventory:
         self.extra = {
             "items":{},
         }
+        self.full_inv_message = "Your inventory is full"
     def add_item(self, item,slot:str="items"):
         if not self.extra[slot].get("capacity"):
             if self.slots.get(slot) is not None:
@@ -26,6 +27,9 @@ class Inventory:
                     self.slots[slot].append(item)
                 else:
                     print("No slot found")
+            else:
+                print(self.full_inv_message)
+
     def remove_item(self, item,slot:str="items"):
         if self.slots.get(slot) is not None:
             self.slots[slot].remove(item)
@@ -41,6 +45,7 @@ class Inventory:
         print(message)
         for i in self.slots.get(slot):
             print(f"{i.name}: {i.description}")
-    def set_capacity(self,capacity:int=10,slot:str="items"):
+    def set_capacity(self,capacity:int=10,slot:str="items",message:str="Your inventory is full"):
         self.extra[slot]["capacity"] = capacity
+        self.full_inv_message = message
 

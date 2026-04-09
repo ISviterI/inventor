@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: inventor
-Version: 1.0.1
-Summary: A simple library for easily working with time
+Version: 1.0.2
+Summary: A simple library for easily creating and managing inventory
 Home-page: https://github.com/ISviterI/chronolight
 Author: Sviter
 License: MIT

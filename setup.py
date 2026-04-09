@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="inventor",
-    version="1.0.2",
+    version="1.0.3",
     author="Sviter",
     description="A simple library for easily creating and managing inventory",
     url="https://github.com/ISviterI/chronolight",

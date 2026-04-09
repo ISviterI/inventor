@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="inventor",
-    version="1.0.1",
+    version="1.0.2",
     author="Sviter",
-    description="A simple library for easily working with time",
+    description="A simple library for easily creating and managing inventory",
     url="https://github.com/ISviterI/chronolight",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",

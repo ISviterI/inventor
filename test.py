@@ -5,7 +5,7 @@ inv.add_item(sword)
 while True:
     action = input("What to do?: ")
     if action == "inventory":
-        inv.print_slot(message="Here's ur inventory:")
+        inv.print_slot()
     for i in inv.slots.get("items"):
         if action == i.name:
             i.use()
